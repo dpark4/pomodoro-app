@@ -1,0 +1,59 @@
+body {
+  background-color: #13213d;
+  margin: 0;
+  font: 400 1rem/1.5 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.progress-container {
+  position: relative;
+}
+
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem; /* Adjust the font size as needed */
+  color: #ffffff; /* Adjust the text color as needed */
+  text-align: center;
+}
+
+.controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  max-width: 400px;
+}
+
+button{
+  background-color: transparent;
+  color: #ffffff; /* Adjust the text color as needed */
+  border:0;
+  display: inline-block;
+  width: 85px;
+  cursor: pointer;
+}
+
+label{
+  display: block;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: undercase;
+}
+
+.settings-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
